@@ -126,7 +126,7 @@ function driveUp() {
   img.style.top = `${img.offsetTop - 8}px`;
   img.style.height = "120px";
   img.style.width = "70px";
-  document.getElementById('sprite').src="Assets/Cars/carV2Up.png";
+  document.getElementById('sprite').src="Assets/Cars/carV2UP.png";
 }}
 function driveDown() {
   const img = document.getElementById('sprite');
@@ -134,7 +134,7 @@ function driveDown() {
   img.style.top = `${img.offsetTop + 8}px`;
   img.style.height = "120px";
   img.style.width = "70px";
-  document.getElementById('sprite').src="Assets/Cars/carV2Down.png";
+  document.getElementById('sprite').src="Assets/Cars/carV2DOWN.png";
 }}
 document.addEventListener('keydown', (e) => { 
   if (e.key === "w"&&(spritestate=="null"||spritestate==null)) {
